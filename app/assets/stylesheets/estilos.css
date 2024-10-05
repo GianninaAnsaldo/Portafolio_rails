@@ -1,0 +1,12 @@
+.ver-mas-btn {
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.ver-mas-btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid cadetblue;
+}
