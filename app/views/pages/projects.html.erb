@@ -1,27 +1,27 @@
 <h1>Proyectos Realizados</h1>
 <div class="card-deck">
   <div class="card">
-    <img class="card-img-top" src="../viajes_chile.jpg" alt="Proyecto 1">
+    <%= image_tag 'viajes_chile.jpg', class: 'card-img-top', alt: 'Proyecto 1' %>
     <div class="card-body">
       <h5 class="card-title">Viajes Chile</h5>
       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent gravida venenatis quam, sit amet maximus eros pretium vel.</p>
-      <a href="#" class="btn btn-primary ver-mas-btn">Ver más</a>
+       <%= link_to 'Ver más', 'https://gianninaansaldo.github.io/Viajes_chile/', class: 'btn btn-primary ver-mas-btn', target: '_blank' %>
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="ruta_a_imagen2" alt="Proyecto 2">
+    <%= image_tag 'ricomida.jpg', class: 'card-img-top', alt: 'Proyecto 2' %>
     <div class="card-body">
-      <h5 class="card-title">Proyecto 2</h5>
+      <h5 class="card-title">Ricomida</h5>
       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent gravida venenatis quam, sit amet maximus eros pretium vel.</p>
-      <a href="#" class="btn btn-primary ver-mas-btn">Ver más</a>
+       <%= link_to 'Ver más', 'https://gianninaansaldo.github.io/Ricomida/', class: 'btn btn-primary ver-mas-btn', target: '_blank' %>
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="ruta_a_imagen3" alt="Proyecto 3">
+    <%= image_tag 'suricata.jpg', class: 'card-img-top', alt: 'Proyecto 3' %>
     <div class="card-body">
-      <h5 class="card-title">Proyecto 3</h5>
+      <h5 class="card-title">Suricata</h5>
       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent gravida venenatis quam, sit amet maximus eros pretium vel.</p>
-      <a href="#" class="btn btn-primary ver-mas-btn">Ver más</a>
+      <%= link_to 'Ver más', 'https://gianninaansaldo.github.io/Suricata/', class: 'btn btn-primary ver-mas-btn', target: '_blank' %>
     </div>
   </div>
 </div>
