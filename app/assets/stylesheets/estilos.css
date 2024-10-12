@@ -1,12 +1,22 @@
-.ver-mas-btn {
+.btn {
     background-color: cadetblue;
     color: white;
     padding: 10px 20px;
     text-align: center;
 }
 
-.ver-mas-btn:hover {
+.btn:hover {
     background-color: white;
     color: black;
     border: 2px solid cadetblue;
+}
+
+H1 {
+    text-align: center;
+    padding: 30px;
+    color: lightseagreen;
+}
+
+h4{
+    color: darkcyan;
 }
